@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    /* background-image: url(web.pic/audit.jpeg); */
+    background-image: url(web.pic/moneypic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+
+}
+.nav-menu{
+    padding-top: 40px;
+}
+.nav-bar{
+    display: flex;
+justify-content: space-around;
+background-color: gainsboro;
+position: fixed;
+top: 0px;
+width: 100%;
+opacity: 0.77;
+}
+.nav-item{
+    display: inline;
+    
+}
+.nav-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-weight: bold;
+    color: black;
+    
+}
+.brand-logo {
+    font-family: "Playwrite US Trad", cursive;
+}
+.brand-dot{
+    color: red;
+    font-size: 40px;
+}
+.header-text{
+    padding-top: 250px;
+    padding-left: 200px;
+}
+.HT1{
+    font-weight: bold;
+}
+.HT2{
+    color: red;
+    font-weight:bold;
+    font-size: 2.2em;
+    /* font-family: "Bebas Neue", sans-serif; */
+}
+.Head-button{
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin: 0;
+}
+.number{
+    display: flex;
+    gap: 15px;
+    padding-left: 500px;
+    /* background-color: red; */
+    ;
+}
+.c{
+    padding-top: 100px;
+    /* padding-left: 200px; */
+    /* text-align: center; */
+}
+.c2{
+    border-color: red;
+    width: 2px;
+}
+.secondsec{
+    display: flex;
+    /* justify-content: space-around; */
+    padding-top: 100px;
+    gap: 70px;
+    padding-left: 400px;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+}
+.thirdsec{
+    background-image: url(web.pic/audit.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;
+   
+}
+.redbox{
+    display: flex;
+    color: white;
+    gap: 25px;
+    padding-left: 450px;
+    padding-bottom: 50px;
+    
+}
+.redbox1{
+    background-color: red;
+    width: 70px;
+    text-align: center;
+    height: 85px;
+    padding-top: 10px;
+    
+
+}
+.bor{
+    border-top: solid red;
+    width: 20px;
+    border-radius: 20px;
+    
+}
+.bor-about{
+    padding-left: 200px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    /* border-top: solid red; */
+    /* width: 100px; */
+}
+.wrap{
+    display: flex;
+   gap: 40px;
+    /* flex-wrap: wrap; */
+    padding-left: 200px;
+}
+.about-speakers{
+    display: flex;
+    gap: 30px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.read{
+    color: red;
+    padding-top: 5px;
+}
+
+.spek{
+    background-color: rgb(206, 201, 201);
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    /* text-align: center; */
+}
+.h3{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.picture{
+    display: flex;
+    flex-wrap: wrap;
+    width: 26%;
+    margin: 0 auto;
+}
+.p1{
+   width: 330px;
+   object-fit: cover; 
+   margin-right: 0;
+   height: 400px;
+}
+.D-speakers{
+    padding-left: 200px;
+    padding-top: 60px;
+    padding-bottom: 50px;}
+.D-speakers1{
+   padding-left: 200px ;
+   color: black;
+}
+.price-table{
+    display: flex;
+    padding-left: 200px;
+    gap: 30px;
+    padding-top: 50px;
+}
+.container-ticket{
+    background-color: rgb(206, 201, 201) ;
+}
+.recommended{
+    position: relative; 
+}
+.container-ticket{
+    text-align: center;
+    padding-top: 5opx;
+    width: 170px;
+    padding-bottom: 20px;
+}
+.price-purchase{
+    /* color: ; */
+    background-color: red;
+    border-radius: 20px;
+    
+}
+.pricing-table{
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.pb{
+    color: black;
+}
+.recommended{
+    color: white;
+    background-color: red;
+    position: relative;
+    font-size: small;
+    width: 100px;
+}
+.container-state{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+.container-state1{
+    padding-top: 40px;
+    padding-bottom: px;
+}
+.calendar{
+    background-color:rgb(206, 201, 201) ;
+    width: 580px;
+
+}
+.calendar-body{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+    /* width: 2000px; */
+}
+.NEC{
+    background-color: red;
+    color: white;
+}
+.nec1{
+    background-color:red;
+    text-align: left;
+}
+.col2{
+font-size: 10px;
+text-align: center;
+}
+.calbut{
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    font-size: 13px;
+}
+.link{
+    color: red;
+
+}
+.partners{
+    display: flex;
+    padding-left: 200px;
+}
+.partner-pic{
+    width: 100px;
+   object-fit: cover; 
+   margin-right: 0;
+   height: 100px;
+   padding-left: 20px;
+}
+.secpart{
+    background-color: antiquewhite;
+    padding-bottom: 50px;
+}
+.row-1{
+    display: flex;
+    justify-content: space-around;
+}
+.tiketsec{
+    background-image: url(web.pic/audit.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.but-gyt{
+    background-color: red;
+    
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+   
+
+}
+.about{
+    color: white;
+}
+.row-1{
+    color: white;
+    padding-left: 40px;
+
+}
+.lastsec{
+    display: flex;
+    padding-top: 30px;
+    background-color: rgb(31, 31, 68);
+    /* justify-content: space-evenly; */
+    gap: 50px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.lastsec p{
+    font-size: 15px;
+    color: white;
+}
+.brand-logo{
+    color: white;
+}
+.lastsecpic{
+    display: flex;
+    
+}
+.partner-pic1{
+    width: 60px;
+   object-fit: cover; 
+   /* margin-right: ; */
+   height: 60px;
+   /* padding-left: 20px; */
+}
+.insta{
+    font-size: 10px;
+}
+.butsec{
+
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    width: 180px; 
+    height: 35px;
+}
+.footer-parent{
+    display: flex;
+    background-color: rgb(6, 6, 44);
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 12px;
+}
+.nav-foot{
+    display: inline;
+    padding-right: 10px;
+ }
+
+/* .calender-item {
+    display: flex;
+    gap: 8px;   
+}
+.calender-item i{
+    font-size: 30px;
+    color: red;
+}
+.calender-item div{
+    line-height: 0px;
+}
+.calender-item p{
+    font-size: 9px;
+}
+.calender-item h5{
+    font-size: 0.8em ; */
